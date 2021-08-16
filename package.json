@@ -1,0 +1,13 @@
+{
+  "name": "fiztehradio.github.io",
+  "version": "1.0.0",
+  "description": "[View live](https://fiztehradio.github.io/fiztehradio.github.io/)",
+  "scripts": {
+    "run": "http-server -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

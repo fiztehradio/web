@@ -1,0 +1,120 @@
+
+.podcasts {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.podcasts-header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 30px 0 0;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.podcasts-cards {
+    clear: both;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    -webkit-transition: opacity .25s .25s,padding .25s,height .25s;
+    transition: opacity .25s .25s,padding .25s,height .25s;
+    color: #111111;
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+    overflow: hidden;
+}
+
+.podcast-info{
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    width: 60%;
+    height: 350px;
+    margin: 20px;
+    padding: 0;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.podcast-info .image{
+    float: left;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.podcast-info .image img{
+    height: 100%;
+}
+
+.podcast-info .text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0 30px 0  20px;
+    border-radius: 20px;
+}
+
+.podcast-info .text .name{
+    float: left;
+    position: relative;
+    height: auto;
+    top: 10%;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 21px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.podcast-info .text .description{
+    float: left;
+    position: relative;
+    height: auto;
+    top: 40%;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.podcast-info .text.after-wrap{
+    top: 90px;
+}
+
+.podcast-info .brief {
+    float: left;
+    position: absolute;
+    height: auto;
+    top: 51px;
+    left: 152px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #645D5D;
+
+}

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Podcasts.css";
 import PodcastList from "../data/podcasts.json";
+import NavButtons from "./NavButtons";
+import SocialButtons from "./SocialButtons";
+import {Link} from "react-router-dom";
 
 class PodcastCard extends React.Component{
   render() {
@@ -21,6 +24,15 @@ class Podcasts extends React.Component{
   render() {
     return(
         <div className="podcasts">
+          <NavButtons theme="black"/>
+          <SocialButtons theme="black"/>
+          <Link to="/">
+            <svg className="logo-text-black" viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
+              <use href="img/logo-text.svg#logo-text"/>
+            </svg>
+          </Link>
+
+
           <p className="podcasts-header"> Наши подкасты </p>
           <div className="podcasts-cards">
             {PodcastList.map((podcastObj) =>

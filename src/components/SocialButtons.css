@@ -1,0 +1,56 @@
+.socButtons{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.socButtons a {
+    position: relative;
+    height: auto;
+    margin-left: 40px;
+    cursor: pointer;
+    /*padding: 8px 25px 8px 8px;*/
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.socButtons a .socialIcon {
+    height: 40px;
+}
+
+.socButtons.white a .socialIcon use {
+    fill: #CCCCCC;
+    /*fill: #645D5D;*/
+}
+.socButtons.black a .socialIcon use {
+    fill: #645D5D;
+}
+
+.socButtons a:hover .socialIcon{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.socButtons.white a:hover .socialIcon use {
+    fill: #FFFFFF;
+}
+.socButtons.black a:hover .socialIcon use {
+    fill: #111111;
+}
+
+@media screen, (max-width: 1100px), (min-width: 800px){
+    .socButtons{
+        position: absolute;
+        left: 40%;
+        top: 120px;
+    }
+}

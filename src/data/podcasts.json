@@ -9,5 +9,60 @@
     "apple-link": "https://podcasts.apple.com/us/podcast/endowment-talks",
     "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvZjJkMmVjN2Q1MzE2NDdjOGJlZjRhOTQyNzVkOTFhMDIueG1s?hl=ru",
     "deezer-link": "https://www.deezer.com/ru/show/2660262"
+  },
+  {
+    "name": "А что дальше?",
+    "image": "img/Podcasts/WhatNext.jpg",
+    "text": "Подкаст в котором вы сможете узнать, как и куда можно устроиться после выпуска из вуза, и как знания из университета помогают в работе.",
+    "vk-link": "https://vk.com/podcast-129331635_456240199",
+    "yandex-link": "https://music.yandex.ru/album/14239171",
+    "castbox-link": "https://castbox.fm/channel/id3886733",
+    "apple-link": "https://podcasts.apple.com/ru/podcast/%D0%B0-%D1%87%D1%82%D0%BE-%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B5/id1556832078?l=en",
+    "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvM2FmY2YwNzhjNmEzNDYzNDhhM2Q3OGYyMzI2NjYxODgueG1s",
+    "deezer-link": "https://www.deezer.com/ru/show/2382102"
+  },
+  {
+    "name": "Теория Трунь",
+    "image": "img/Podcasts/TheoryTrun.jpg",
+    "text": "Обсуждаем наболевшие вопросы в необъятном мире музыки и разговариваем с людьми, непосредственно причастными к музыкальной индустрии как на Физтехе, так и вне его.",
+    "vk-link": "https://vk.com/podcast-129331635_456240162",
+    "yandex-link": "https://music.yandex.ru/album/14746008",
+    "castbox-link": "https://castbox.fm/channel/id4010339",
+    "apple-link": "https://podcasts.apple.com/ru/podcast/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D1%82%D1%80%D1%83%D0%BD%D1%8C/id1561837570",
+    "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvM2NmZWFkOGMzMGMwNDU1Y2EwMzU3NmE2NGRkZTA5ZjkueG1s",
+    "deezer-link": ""
+  },
+  {
+    "name": "Первая пара",
+    "image": "img/Podcasts/FirstPara.jpg",
+    "text": "Расслабляющий подкаст, который позволит вам спать так же сладко, как вы спали на своих любимых первых парах после бурной бессонной ночи.",
+    "vk-link": "https://vk.com/podcast-129331635_456240010",
+    "yandex-link": "https://music.yandex.ru/album/14522840",
+    "castbox-link": "https://castbox.fm/channel/id3634543",
+    "apple-link": "https://podcasts.apple.com/ru/podcast/%D0%BF%D0%B5%D1%80%D0%B2%D0%B0%D1%8F-%D0%BF%D0%B0%D1%80%D0%B0/id1545742341",
+    "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvMjY5ZDBmNmI2ZWJmNDUxZTg3ZGVkMTFhZjFmNzQxMzkueG1s",
+    "deezer-link": ""
+  },
+  {
+    "name": "Кот в мешке",
+    "image": "img/Podcasts/CatInSack.jpg",
+    "text": "Вы никогда не узнаете, что будет в выпусках этого подкаста. Будем говорить обо всём на свете со многими людьми. Доставайте каждый раз своего кота в мешке вместе с Физтех.Радио!",
+    "vk-link": "https://vk.com/podcast-129331635_456240075",
+    "yandex-link": "https://music.yandex.ru/album/14302199",
+    "castbox-link": "https://castbox.fm/channel/id3903850",
+    "apple-link": "https://podcasts.apple.com/ru/podcast/%D0%BA%D0%BE%D1%82-%D0%B2-%D0%BC%D0%B5%D1%88%D0%BA%D0%B5/id1557215425",
+    "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvN2ZiMzM1OTFlNTA3NDdjYzk2ZWVjYWYxNDEwMDViZWEueG1s",
+    "deezer-link": ""
+  },
+  {
+    "name": "Служу Физтеху!",
+    "image": "img/Podcasts/ServeMIPT.jpg",
+    "text": "«Служу Физтеху» - это истории выпускников МФТИ о их карьере, сложившейся после выпуска, рассказы о жизни и быте в студенческие годы и размышления о том, как можно (и нужно) помогать родному ВУЗу. Подкаст создается при активной поддержке Физтех-Союза!",
+    "vk-link": "https://vk.com/podcast-129331635_456240133",
+    "yandex-link": "https://music.yandex.ru/album/14555558",
+    "castbox-link": "https://castbox.fm/channel/id3964720",
+    "apple-link": "https://podcasts.apple.com/ru/podcast/%D1%81%D0%BB%D1%83%D0%B6%D1%83-%D1%84%D0%B8%D0%B7%D1%82%D0%B5%D1%85%D1%83/id1560093724",
+    "google-link": "https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvZGU4OTQ3Yzk2ZTFkNDZkMWE1OTlhYzE4ZTQ3MjYxNzUueG1s",
+    "deezer-link": ""
   }
 ]

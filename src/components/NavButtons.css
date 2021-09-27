@@ -1,0 +1,46 @@
+.navButtons {
+    position: absolute;
+    height: auto;
+    top: 50px;
+    left: 270px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navButtons .button{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    height: 3rem;
+    text-align: center;
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.navButtons .button span{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.navButtons.black .button span{
+    color: #645D5D;
+}
+
+.navButtons.white .button span{
+    color: #CCCCCC;
+}
+
+.navButtons .button:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.navButtons.black .button:hover span{
+    color: #111111;
+}
+
+.navButtons.white .button:hover span{
+    color: #FFFFFF;
+}

@@ -3,10 +3,6 @@ import './App.css';
 import Home from "./components/Home";
 import {createBrowserHistory} from "history";
 import {BrowserRouter} from "react-router-dom";
-import Team from "./components/Team";
-import Podcasts from "./components/Podcasts";
-import SideNav from "./components/SideNav";
-import NavIcon from "./components/NavIcon";
 
 const history = createBrowserHistory();
 

@@ -47,10 +47,27 @@
     fill: #111111;
 }
 
-@media screen, (max-width: 1100px), (min-width: 800px){
+@media screen and (max-width: 1100px) and (min-width: 800px){
     .socButtons{
         position: absolute;
         left: 40%;
         top: 120px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .socButtons{
+        position: absolute;
+        left: 50%;
+        top: 120px;
+    }
+
+    .socButtons a {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .socButtons a .socialIcon {
+        height: 20px;
     }
 }

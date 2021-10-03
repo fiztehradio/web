@@ -1,23 +1,6 @@
 import React from "react";
 import "./SocialButtons.css";
 
-class SocialIcon extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state={
-      isClicked: false
-    };
-  }
-  render() {
-    let className = this.state.isClicked ? "button-clicked" : "button";
-    return(
-        <div className={className}>
-          {this.props.text}
-        </div>
-    );
-  }
-}
-
 class SocialButtons extends React.Component{
   render() {
     let className = (this.props.theme === "black") ? "socButtons black" : "socButtons white";

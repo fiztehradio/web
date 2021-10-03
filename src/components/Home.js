@@ -13,6 +13,7 @@ import Podcasts from "./Podcasts";
 class Home extends React.Component{
   render() {
     const history = this.props;
+    document.body.className = "body home";
     return(
       <div className="main">
         <Switch>
@@ -22,7 +23,7 @@ class Home extends React.Component{
             <div className="welcome">
               <NavButtons theme="white"/>
               <SocialButtons theme="white"/>
-              <Link to="/">
+              <Link to="./">
                 <svg className="logo-text-white" viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
                   <use href="img/logo-text.svg#logo-text"/>
                 </svg>

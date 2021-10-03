@@ -59,7 +59,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: left;
-    width: 70%;
+    width: 80%;
     height: 350px;
     margin: 20px;
     padding: 0;
@@ -104,7 +104,7 @@
     top: 10%;
     font-weight: 600;
     font-style: normal;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 21px;
     color: #000000;
     white-space: nowrap;
@@ -114,7 +114,7 @@
     float: left;
     position: relative;
     height: auto;
-    top: 40%;
+    top: 30%;
     margin: 0;
     padding: 0;
     font-weight: 500;
@@ -125,6 +125,46 @@
 }
 .podcast-info .text.after-wrap{
     top: 90px;
+}
+
+.podcast-info .text .refs{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20%;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding-left: -15px;
+    color: #000000;
+}
+
+.link{
+    padding: 8px 14px 6px 14px;
+    height: auto;
+    width: auto;
+    color: #111111;
+    text-decoration: none;
+    background: #e8e8e8;
+    border-radius: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+.link:hover {
+    transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+    color: #606060;
+    background: #f3f3f3;
+}
+
+.link:not(:first-child){
+    margin-left: 8px;
 }
 
 .podcast-info .brief {

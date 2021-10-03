@@ -25,7 +25,7 @@ class Team extends React.Component{
       <div className={"team"}>
         <NavButtons theme="black"/>
         <SocialButtons theme="black"/>
-        <Link to="/">
+        <Link to="./">
           <svg className="logo-text-black" viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
             <use href="img/logo-text.svg#logo-text"/>
           </svg>

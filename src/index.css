@@ -1,6 +1,14 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #E5E5E5;
+}
+body.home {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 html {

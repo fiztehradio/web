@@ -5,7 +5,7 @@
     background-color: #E5E5E5;
 }
 
-.logo-text-black {
+.logoTextBlack {
     position: absolute;
     top: 50px;
     height: 50px;
@@ -13,21 +13,21 @@
     margin: 0;
 }
 
-.logo-text-black use{
+.logoTextBlack use{
     fill: #645D5D;
 }
 
-.logo-text-black:hover{
+.logoTextBlack:hover{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
 }
 
-.logo-text-black:hover use{
+.logoTextBlack:hover use{
     fill: #111111;
 }
 
 
-.podcasts-header {
+.podcastsHeader {
     text-align: center;
     font-size: 2.5em;
     font-weight: 600;
@@ -36,7 +36,7 @@
     overflow: hidden;
 }
 
-.podcasts-cards {
+.podcastsCards {
     position: static;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@
     overflow: hidden;
 }
 
-.podcast-info{
+.podcastInfo{
     float: left;
     position: relative;
     display: flex;
@@ -69,12 +69,12 @@
 }
 
 @media screen and (max-width: 500px){
-    .podcast-info {
+    .podcastInfo {
         height: 100px;
     }
 }
 
-.podcast-info .image{
+.podcastInfo .image{
     float: left;
     position: static;
     height: 350px;
@@ -84,11 +84,11 @@
     padding: 0;
 }
 
-.podcast-info .image img{
+.podcastInfo .image img{
     height: 350px;
 }
 
-.podcast-info .text{
+.podcastInfo .text{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -97,7 +97,7 @@
     border-radius: 20px;
 }
 
-.podcast-info .text .name{
+.podcastInfo .text .name{
     float: left;
     position: relative;
     height: auto;
@@ -110,7 +110,7 @@
     white-space: nowrap;
 }
 
-.podcast-info .text .description{
+.podcastInfo .text .description{
     float: left;
     position: relative;
     height: auto;
@@ -123,11 +123,11 @@
     line-height: 30px;
     color: #000000;
 }
-.podcast-info .text.after-wrap{
+.podcastInfo .text.afterWrap{
     top: 90px;
 }
 
-.podcast-info .text .refs{
+.podcastInfo .text .refs{
     float: left;
     display: flex;
     flex-direction: row;
@@ -167,7 +167,7 @@
     margin-left: 8px;
 }
 
-.podcast-info .brief {
+.podcastInfo .brief {
     float: left;
     position: absolute;
     height: auto;

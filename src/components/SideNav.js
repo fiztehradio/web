@@ -1,11 +1,10 @@
 import React from "react";
-import './SideNav.css';
+import styles from './SideNav.module.css';
 
 class SideNav extends React.Component{
   render() {
-    let className = "sidenav";
-    if(this.props.isOpen)
-      className += " open";
+    let className = styles.sideNav;
+    className += (this.props.isOpen) ? ` ${styles.open}` : "";
     return (
         <div className={className}>
           <a href="https://www.instagram.com/radiomipt/" target="_blank" rel="noreferrer">
@@ -14,14 +13,14 @@ class SideNav extends React.Component{
           <a href="https://vk.com/radiomipt" target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 445" height="33">
               <title>Вконтакте</title>
-              <path className="vk-color-1"
+              <path className={styles.vkColor1}
                     d="M 68.57,0 H 376.43 A 68.57,68.57,0,0,1,445,68.57
                    V 376.43 A 68.57,68.57,0,0,1,376.43,445
                    H 68.57 A 68.57,68.57,0,0,1,0,376.43
                    V 68.57 A 68.57,68.57,0,0,1,68.57,0
                    Z"
               />
-              <path className="vk-color-2"
+              <path className={styles.vkColor2}
                     d="M 323.3,226.21 s 38.45-54.24,42.27-72.07
                    c 1.27-6.37-1.53-9.93-8.15-9.93 H 324.07
                    c -7.64,0-10.44,3.31-12.73,8.15,0,0-18,38.43-40,62.64-7,7.83-10.63,10.18-14.52,10.18-3.14,0-4.58-2.61-4.58-9.68

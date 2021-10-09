@@ -6,7 +6,7 @@
     background-color: #E5E5E5;
 }
 
-.logo-text-black {
+.logoTextBlack {
     position: absolute;
     top: 50px;
     height: 50px;
@@ -14,20 +14,20 @@
     margin: 0;
 }
 
-.logo-text-black use{
+.logoTextBlack use{
     fill: #645D5D;
 }
 
-.logo-text-black:hover{
+.logoTextBlack:hover{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
 }
 
-.logo-text-black:hover use{
+.logoTextBlack:hover use{
     fill: #111111;
 }
 
-.team-header {
+.teamHeader {
     position: relative;
     text-align: center;
     font-size: 2.5em;
@@ -37,7 +37,7 @@
     overflow: hidden;
 }
 
-.team-cards {
+.teamCards {
     clear: both;
     position: relative;
     display: flex;
@@ -130,7 +130,7 @@
     line-height: 16px;
     color: #000000;
 }
-.card .text.after-wrap{
+.card .text.afterWrap{
     top: 90px;
 }
 

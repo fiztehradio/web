@@ -1,5 +1,5 @@
 import React from "react";
-import './NavIcon.css'
+import styles from './NavIcon.module.css'
 
 class NavIcon extends React.Component {
   constructor(props) {
@@ -12,9 +12,8 @@ class NavIcon extends React.Component {
   }
 
   render() {
-    let className = "nav-icon";
-    if (this.props.isOpen)
-      className += " open";
+    let className = styles.navIcon;
+    className += (this.props.isOpen) ? ` ${styles.open}` : "";
     return (
       <div className={className} onClick={this.toggleNav}>
         <span/>

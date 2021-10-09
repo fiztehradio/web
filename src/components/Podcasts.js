@@ -1,5 +1,5 @@
 import React from "react";
-import "./Podcasts.css";
+import styles from "./Podcasts.module.css";
 import PodcastList from "../data/podcasts.json";
 import NavButtons from "./NavButtons";
 import SocialButtons from "./SocialButtons";
@@ -21,7 +21,7 @@ class PodcastCard extends React.Component{
   getLink(refName, refValue){
     if (refValue !== ""){
       return (
-          <a href={refValue} className="link" rel="noreferrer">
+          <a href={refValue} className={styles.link} rel="noreferrer">
             <span> {this.getLinkName(refName)} </span>
           </a>
       );
@@ -33,18 +33,17 @@ class PodcastCard extends React.Component{
 
   render() {
     let podcast = this.props.info;
-    console.log(Object.keys(podcast).slice(3,-1));
     return(
-        <div className="podcast-info">
-          <div className="image"><img src={podcast.image} alt={podcast.name}/></div>
-          <div className="text">
-            <div className="name">{podcast.name}</div>
-            <div className="refs">
+        <div className={styles.podcastInfo}>
+          <div className={styles.image}><img src={podcast.image} alt={podcast.name}/></div>
+          <div className={styles.text}>
+            <div className={styles.name}>{podcast.name}</div>
+            <div className={styles.refs}>
               {Object.keys(podcast).slice(3).map((ref) =>
                 this.getLink(ref, podcast[ref])
               )}
             </div>
-            <div className="description">{podcast.text}</div>
+            <div className={styles.description}>{podcast.text}</div>
           </div>
         </div>
     );
@@ -54,18 +53,18 @@ class PodcastCard extends React.Component{
 class Podcasts extends React.Component{
   render() {
     return(
-        <div className="podcasts">
+        <div className={styles.podcasts}>
           <NavButtons theme="black"/>
           <SocialButtons theme="black"/>
-          <Link to="./">
-            <svg className="logo-text-black" viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
+          <Link to="/">
+            <svg className={styles.logoTextBlack} viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
               <use href="img/logo-text.svg#logo-text"/>
             </svg>
           </Link>
 
 
-          <p className="podcasts-header"> Наши подкасты </p>
-          <div className="podcasts-cards">
+          <p className={styles.podcastsHeader}> Наши подкасты </p>
+          <div className={styles.podcastsCards}>
             {PodcastList.map((podcastObj) =>
                 <PodcastCard key={podcastObj.name}
                       info={podcastObj}

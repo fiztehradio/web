@@ -1,17 +1,18 @@
 import React from "react";
-import "./NavButtons.css";
+import styles from "./NavButtons.module.css";
 import {
     Link
   } from "react-router-dom";
 
 class NavButtons extends React.Component{
   render() {
-    let className = (this.props.theme === "black") ? "navButtons black" : "navButtons white";
+    let className = styles.navButtons;
+    className += (this.props.theme === "black") ? ` ${styles.black}` : ` ${styles.white}` ;
     return(
       <div className={className}>
-        <Link className="button"  to="./team"> <span> {"О команде"} </span> </Link>
-        <Link className="button" to="./podcasts"> <span> {"Подкасты"} </span></Link>
-        {/*<Link className="button" to="./articles"> <span> {"Статьи"} </span> </Link>*/}
+        <Link className={styles.button} to="/team"> <span> {"О команде"} </span> </Link>
+        <Link className={styles.button} to="/podcasts"> <span> {"Подкасты"} </span></Link>
+        {/*<Link className={styles.button} to="/articles"> <span> {"Статьи"} </span> </Link>*/}
       </div>
     );
   }

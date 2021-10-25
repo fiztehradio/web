@@ -4,6 +4,7 @@ import TeamList from "../data/team.json";
 import NavButtons from "./NavButtons";
 import SocialButtons from "./SocialButtons";
 import {Link} from "react-router-dom";
+import SideNav from "./SideNav";
 
 class Card extends React.Component{
   render() {
@@ -27,6 +28,7 @@ class Team extends React.Component{
       <div className={styles.team}>
         <NavButtons theme="black"/>
         <SocialButtons theme="black"/>
+        <SideNav/>
         <Link to="/">
           <svg className={styles.logoTextBlack} viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
             <use href="img/logo-text.svg#logo-text"/>

@@ -41,17 +41,15 @@ class Home extends React.Component{
             <div className={styles.welcome}>
               <NavButtons theme="white"/>
               <SocialButtons theme="white"/>
-              <SideNav  isOpen={this.state.isSideOpen}/>
-              <NavIcon
-                  isOpen = {this.state.isSideOpen}
-                  onToggleChange = {this.toggleNavIcon}
-              />
+              <SideNav/>
               <Link to="/">
                 <svg className={styles.logoTextWhite} viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
                   <use href="img/logo-text.svg#logo-text"/>
                 </svg>
               </Link>
-              <img className={styles.logoImage} src="img/logo-image.svg"  alt={"radio.mipt logo"}/>
+              <svg className={styles.logoImage} viewBox="0 0 69.28 80" xmlns="http://www.w3.org/2000/svg">
+                <use href="img/logo-image.svg#logo-image"/>
+              </svg>
             </div>
           </Route>
         </Switch>

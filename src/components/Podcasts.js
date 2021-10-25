@@ -4,6 +4,7 @@ import PodcastList from "../data/podcasts.json";
 import NavButtons from "./NavButtons";
 import SocialButtons from "./SocialButtons";
 import {Link} from "react-router-dom";
+import SideNav from "./SideNav";
 
 class PodcastCard extends React.Component{
   getLinkName(refName){
@@ -56,6 +57,7 @@ class Podcasts extends React.Component{
         <div className={styles.podcasts}>
           <NavButtons theme="black"/>
           <SocialButtons theme="black"/>
+          <SideNav/>
           <Link to="/">
             <svg className={styles.logoTextBlack} viewBox="0 0 198.04 75" xmlns="http://www.w3.org/2000/svg">
               <use href="img/logo-text.svg#logo-text"/>

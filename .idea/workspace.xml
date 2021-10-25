@@ -4,24 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb44dd10-9af4-424c-85fa-7f020cd0c74a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="SideNav update">
+      <changelist_data name="Ayliuz" email="zuev.iv@phystech.edu" />
+      <change afterPath="$PROJECT_DIR$/public/img/podcast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/team.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/podcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/twitter.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavButtons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Podcasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavButtons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavButtons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Podcasts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SideNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialButtons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialButtons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialButtons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,32 +29,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1xM1Zu72bsegZafjlrNHNFjzSRE" />
+  <component name="ProjectId" id="1zimiWnPXNdMvotJ1MldYIVzMkp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,36 +47,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.20" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public/img/Podcasts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Илья\Documents\GitHub\web\public\img\Podcasts" />
-      <recent name="C:\Users\Илья\Documents\GitHub\web\src\fonts" />
-      <recent name="C:\Users\Илья\Documents\GitHub\web\src" />
-      <recent name="C:\Users\Илья\Documents\GitHub\web\src\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -102,7 +72,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -112,7 +82,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -122,33 +92,30 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="npm.deploy" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb44dd10-9af4-424c-85fa-7f020cd0c74a" name="Changes" comment="" />
-      <created>1630150201499</created>
+      <changelist id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="" />
+      <created>1634639412158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630150201499</updated>
-      <workItem from="1630150202757" duration="45383000" />
-      <workItem from="1630319049032" duration="6049000" />
-      <workItem from="1630837804536" duration="16445000" />
-      <workItem from="1631312845371" duration="31602000" />
-      <workItem from="1632318309032" duration="79000" />
-      <workItem from="1632319395920" duration="213000" />
-      <workItem from="1632834513051" duration="5767000" />
-      <workItem from="1632997709561" duration="1017000" />
-      <workItem from="1632999420197" duration="12858000" />
-      <workItem from="1633284327930" duration="5512000" />
-      <workItem from="1633440818422" duration="8075000" />
+      <updated>1634639412158</updated>
+      <workItem from="1634639415988" duration="19081000" />
     </task>
+    <task id="LOCAL-00001" summary="SideNav update">
+      <created>1635179486703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635179486703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,18 +131,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SideNav update" />
+    <MESSAGE value="New SideNav and mobile devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="New SideNav and mobile devices" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

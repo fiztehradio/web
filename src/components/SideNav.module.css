@@ -1,69 +1,63 @@
 .sideNav {
-    height: 100%;
-    width: 0;
+    height: 70px;
+    width: 100%;
     position: fixed;
-    z-index: 1;
     top: 0;
-    right: -0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: #E5E5E5;
     -webkit-transition: .5s;
     transition: .5s;
-    white-space: nowrap;
 }
 
-.sideNav.open {
-    width: 100px;
-    right: 0;
-}
-
-.sideNav a {
-    padding: 8px 25px 8px 8px;
+.button {
+    display: flex;
+    align-items: center;
+    padding: 0;
     text-decoration: none;
-    font-size: 25px;
     color: #818181;
-    display: block;
     -webkit-transition: .3s;
     transition: .3s;
-    text-align: right;
-    width: 67px;
 }
 
-.sideNav a:nth-child(1) {
-    margin-top: 80px;
+.button svg {
+    height: 40px;
 }
 
-.sideNav a:hover {
-    color: #f1f1f1;
+.button svg * {
+    fill: #717171;
 }
 
-.sideNav a img {
-    height: 50px;
+.button:hover svg *{
+    fill: #111;
 }
 
-.sideNav a svg {
-    height: 50px;
-}
-
-.sideNav a svg * {
-    fill: darkgrey;
-}
-
-.sideNav a svg .vkColor1 {
-    fill: #5181b8;
-}
-
-.sideNav a svg .vkColor2 {
-    fill: white;
-}
-
-@media screen and (max-height:450px) {
+@media (min-width: 671px){
     .sideNav {
-        padding-top: 15px;
-    }
-
-    .sideNav a {
-        font-size: 18px;
+        display: none;
     }
 }
+
+@media (min-height: 900px){
+    .sideNav{
+        height: 80px;
+    }
+
+    .button svg {
+        height: 50px;
+    }
+}
+
+@media (min-height: 1200px){
+    .sideNav{
+        height: 90px;
+    }
+
+    .button svg {
+        height: 60px;
+    }
+}
+

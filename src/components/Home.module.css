@@ -44,13 +44,6 @@ h1 {
     margin: 0;
 }
 
-.logoImage {
-    position: relative;
-    top: 40px;
-    height: 250px;
-    margin: 40px auto;
-}
-
 .logoTextWhite {
     position: absolute;
     top: 50px;
@@ -72,42 +65,79 @@ h1 {
     fill: #FFFFFF;
 }
 
-@media (max-height: 500px){
-    .logoImage{
-        height: 125px;
-    }
+@media (max-width: 670px){
     .logoTextWhite {
-        height: 50px;
+        display: none;
     }
 }
-@media (max-width: 590px) {
+
+
+.logoImage {
+    position: relative;
+    top: 40px;
+    height: 250px;
+    margin: 40px auto;
+    fill:white;
+}
+
+
+@media (max-height: 660px) and (min-width: 590px){
     .logoImage{
-        height: 125px;
-    }
-    .logoTextWhite {
-        height: 50px;
+        height: 200px;
     }
 }
 
-.arrow.right {
-    position: absolute;
-    fill: #FFFFFF;
-    width: 50px;
-    height: 50px;
-    right: 20px;
+@media (max-width: 590px){
+    .logoImage{
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 670px){
+    .logoImage{
+        top: 0;
+    }
+}
+
+@media (max-height: 420px), (max-width: 280px){
+    .logoImage{
+        height: 150px;
+    }
+}
+
+@media (max-height: 350px){
+    .logoImage {
+        display: none;
+    }
 }
 
 
-.arrow.bottom {
-    position: absolute;
-    fill: #FFFFFF;
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
+@media (min-height: 1000px) and (min-width: 1200px){
+    .logoImage{
+        height: 300px;
+    }
+
+    .logoTextWhite{
+        height: 60px;
+    }
 }
 
-@media (max-width:450px),(max-height:576px) {
-    .welcomeText{
-        font-size: 1em;
+@media (min-height: 1400px) and (min-width: 1450px){
+    .logoImage{
+        height: 350px;
+    }
+
+    .logoTextWhite{
+        height: 80px;
+    }
+}
+
+@media (min-height: 1600px) and (min-width: 1900px){
+    .logoImage{
+        height: 500px;
+    }
+
+    .logoTextWhite{
+        height: 100px;
     }
 }

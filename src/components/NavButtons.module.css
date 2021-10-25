@@ -44,3 +44,50 @@
 .navButtons.white .button:hover span{
     color: #FFFFFF;
 }
+
+@media (max-width: 670px){
+    .navButtons {
+        display: none;
+    }
+}
+
+@media (min-height: 1000px) and (min-width: 1200px){
+    .navButtons .button {
+        height: 3rem;
+        margin-left: 30px;
+    }
+
+    .navButtons .button span{
+        font-size: 2.5em;
+    }
+}
+
+@media (min-height: 1400px) and (min-width: 1450px){
+    .navButtons{
+        margin-left: 60px;
+    }
+
+    .navButtons .button {
+        height: 4rem;
+        margin-left: 50px;
+    }
+
+    .navButtons .button span{
+        font-size: 3em;
+    }
+}
+
+@media (min-height: 1600px) and (min-width: 1900px){
+    .navButtons{
+        margin-left: 110px;
+    }
+
+    .navButtons .button {
+        height: 4rem;
+        margin-left: 60px;
+    }
+
+    .navButtons .button span{
+        font-size: 3.5em;
+    }
+}

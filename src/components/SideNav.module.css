@@ -14,48 +14,58 @@
 }
 
 .sideNav.open {
-    width: 100px;
+    width: 110px;
     right: 0;
 }
 
-.sideNav a {
-    padding: 8px 25px 8px 8px;
+.button {
+    padding: 8px 25px 8px 25px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #818181;
     display: block;
     -webkit-transition: .3s;
     transition: .3s;
     text-align: right;
-    width: 67px;
-}
-
-.sideNav a:nth-child(1) {
-    margin-top: 80px;
-}
-
-.sideNav a:hover {
-    color: #f1f1f1;
-}
-
-.sideNav a img {
+    width: 50px;
     height: 50px;
 }
 
-.sideNav a svg {
+.button img {
+    height: 50px;
+    background-color: white;
+}
+
+.button svg {
     height: 50px;
 }
 
-.sideNav a svg * {
+.button svg * {
     fill: darkgrey;
 }
 
-.sideNav a svg .vkColor1 {
+.button svg .vkColor1 {
     fill: #5181b8;
 }
 
-.sideNav a svg .vkColor2 {
+.button svg .vkColor2 {
     fill: white;
+}
+
+.text {
+    padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: white;
+    /*transition: none;*/
+    /*-webkit-transition: none;*/
+}
+
+.text:hover {
+    color: #f1f1f1;
 }
 
 @media screen and (max-height:450px) {
@@ -63,7 +73,13 @@
         padding-top: 15px;
     }
 
-    .sideNav a {
+    .button {
         font-size: 18px;
+    }
+}
+
+@media (min-height: 500px) and (min-width: 590px){
+    .sideNav {
+        display: none;
     }
 }

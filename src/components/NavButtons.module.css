@@ -44,3 +44,9 @@
 .navButtons.white .button:hover span{
     color: #FFFFFF;
 }
+
+@media (max-height: 500px), (max-width: 590px){
+    .navButtons {
+        display: none;
+    }
+}

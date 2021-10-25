@@ -71,3 +71,9 @@
         height: 20px;
     }
 }
+
+@media (max-height: 500px), (max-width: 590px){
+    .socButtons {
+        display: none;
+    }
+}

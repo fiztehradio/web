@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './SideNav.module.css';
+import {Link} from "react-router-dom";
 
 class SideNav extends React.Component{
   render() {
@@ -7,10 +8,16 @@ class SideNav extends React.Component{
     className += (this.props.isOpen) ? ` ${styles.open}` : "";
     return (
         <div className={className}>
-          <a href="https://www.instagram.com/radiomipt/" target="_blank" rel="noreferrer">
+          <Link className={styles.button} to="/team">
+            <img src="img/team.png" alt={"Team"}/>
+          </Link>
+          <Link className={styles.button} to="/podcasts">
+            <img src="img/podcast.png" alt={"Podcasts"}/>
+          </Link>
+          <a className={styles.button} href="https://www.instagram.com/radiomipt/" target="_blank" rel="noreferrer">
             <img src="img/instagram.png" alt={"Instagram"}/>
           </a>
-          <a href="https://vk.com/radiomipt" target="_blank" rel="noreferrer">
+          <a className={styles.button} href="https://vk.com/radiomipt" target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 445" height="33">
               <title>Вконтакте</title>
               <path className={styles.vkColor1}
@@ -36,7 +43,7 @@ class SideNav extends React.Component{
             </svg>
           </a>
 
-          <a href="https://twitter.com/radiomipt" target="_blank" rel="noreferrer">
+          <a className={styles.button} href="https://twitter.com/radiomipt" target="_blank" rel="noreferrer">
             <img width="49" height="49" src="img/twitter.png" alt={"Twitter"}/>
           </a>
         </div>

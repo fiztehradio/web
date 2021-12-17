@@ -9,6 +9,7 @@ import SideNav from "./SideNav";
 class PodcastCard extends React.Component{
   getLinkName(refName){
     switch(refName){
+      case "spotify-link": return "Spotify";
       case "vk-link": return "VK";
       case "yandex-link": return "Яндекс.Музыка";
       case "castbox-link": return "Castbox";

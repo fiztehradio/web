@@ -55,6 +55,9 @@
         top: unset;
         right: unset;
     }
+    .socButtons.black{
+        display: none;
+    }
 }
 
 @media screen and (max-height: 660px){
@@ -100,11 +103,5 @@
 
     .socButtons a .socialIcon{
         height: 80px;
-    }
-}
-
-@media (max-height: 500px), (max-width: 590px){
-    .socButtons {
-        display: none;
     }
 }

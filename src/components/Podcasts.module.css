@@ -5,11 +5,6 @@
     background-color: #E5E5E5;
 }
 
-@media (max-width: 670px){
-    .podcasts {
-        padding-top: 80px;
-    }
-}
 
 @media (max-width: 670px) and (min-height: 900px){
     .podcasts {
@@ -59,12 +54,6 @@
     overflow: hidden;
 }
 
-@media  (max-width: 460px) {
-    .podcastsHeader {
-        font-size: 2em;
-    }
-}
-
 .podcastsCards {
     position: static;
     display: flex;
@@ -78,7 +67,6 @@
     vertical-align: middle;
     -webkit-transition: opacity .25s .25s,padding .25s,height .25s;
     transition: opacity .25s .25s,padding .25s,height .25s;
-    overflow: hidden;
 }
 
 .podcastInfo{
@@ -94,13 +82,7 @@
     padding: 0;
     background: #FFFFFF;
     border-radius: 20px;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 500px){
-    .podcastInfo {
-        height: 100px;
-    }
+    overflow: scroll;
 }
 
 .podcastInfo .image{
@@ -143,7 +125,7 @@
     float: left;
     position: relative;
     height: auto;
-    top: 30%;
+    top: 23%;
     margin: 0;
     padding: 0;
     font-weight: 500;
@@ -152,7 +134,7 @@
     line-height: 30px;
     color: #000000;
 }
-.podcastInfo .text.afterWrap{
+.podcastInfo .text .afterWrap{
     top: 90px;
 }
 
@@ -162,11 +144,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    top: 20%;
+    top: 18%;
     height: auto;
     width: 100%;
-    margin: 0;
-    padding-left: -15px;
+    margin-left: -5px;
     color: #000000;
 }
 
@@ -182,7 +163,8 @@
     font-style: normal;
     font-size: 17px;
     line-height: 30px;
-
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .link:hover {
@@ -192,11 +174,8 @@
     background: #f3f3f3;
 }
 
-.link:not(:first-child){
-    margin-left: 8px;
-}
 
-.podcastInfo .brief {
+/*.podcastInfo .brief {
     float: left;
     position: absolute;
     height: auto;
@@ -210,13 +189,332 @@
     line-height: 16px;
     color: #645D5D;
 
-}
+}*/
 
-@media screen and (max-width: 1100px), (min-width: 800px) {
-    .podcasts {
-        padding-top: 170px;
+@media screen and (max-width: 1100px) and (min-width: 670px){
+    .podcastInfo{
+        height: 300px;
+    }
+
+    .podcastInfo .image{
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 0;
+        float: left;
+    }
+
+    .podcastInfo .image img{
+        height: 200px;
+    }
+
+    .podcastInfo .text .name{
+        top: 5%;
+        font-size: 27px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .description{
+        top: 18%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .podcastInfo .text .refs{
+        top: 13%;
+        margin-left: -5px;
+    }
+
+    .link{
+        padding: 8px 14px 6px 14px;
+        border-radius: 25px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
     }
 }
+
+
+@media screen and (max-width: 670px) and (min-width: 530px){
+    .podcasts {
+        padding-top: 80px;
+    }
+
+    .podcastsHeader{
+        margin-bottom: 20px;
+    }
+
+    .podcastInfo{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .podcastInfo .image{
+        position: center;
+        clip-path: inset(0px round 20px);
+        height: 400px;
+        width: 400px;
+        padding: 0;
+    }
+
+    .podcastInfo .image img{
+        height: 400px;
+    }
+
+    .podcastInfo .text{
+        margin-top: 30px;
+    }
+
+    .podcastInfo .text .name{
+        top:0;
+        font-size: 27px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .description{
+        margin-top: 20px;
+        top:0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .podcastInfo .text .refs{
+        top:0;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    .link{
+        padding: 8px 14px 6px 14px;
+        border-radius: 25px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 530px) and (min-width: 470px){
+    .podcasts {
+        padding-top: 80px;
+    }
+
+    .podcastsHeader{
+        margin-bottom: 20px;
+    }
+
+    .podcastInfo{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .podcastInfo .image{
+        position: center;
+        clip-path: inset(0px round 20px);
+        height: 350px;
+        width: 350px;
+        padding: 0;
+    }
+
+    .podcastInfo .image img{
+        height: 350px;
+    }
+
+    .podcastInfo .text{
+        margin-top: 30px;
+    }
+
+    .podcastInfo .text .name{
+        top:0;
+        font-size: 27px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .description{
+        margin-top: 20px;
+        top:0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .podcastInfo .text .refs{
+        top:0;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    .link {
+        padding: 8px 14px 6px 14px;
+        border-radius: 25px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 470px) and (min-width: 390px) {
+
+    .podcasts {
+        padding-top: 80px;
+    }
+
+    .podcastsHeader{
+        margin-bottom: 20px;
+    }
+
+    .podcastInfo{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .podcastInfo .image{
+        position: center;
+        clip-path: inset(0px round 20px);
+        height: 300px;
+        width: 300px;
+        padding: 0;
+    }
+
+    .podcastInfo .image img{
+        height: 300px;
+    }
+
+    .podcastInfo .text{
+        margin-top: 30px;
+    }
+
+    .podcastInfo .text .name{
+        top:0;
+        font-size: 27px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .description{
+        margin-top: 20px;
+        top:0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .podcastInfo .text .refs{
+        top:0;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    .link {
+        padding: 8px 14px 6px 14px;
+        border-radius: 25px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media  (max-width: 460px) {
+    .podcastsHeader {
+        font-size: 2em;
+    }
+
+    .podcasts {
+        padding-top: 60px;
+    }
+
+    .podcastsHeader{
+        margin-bottom: 10px;
+    }
+
+    .podcastInfo {
+        padding-top: 20px;
+    }
+
+}
+
+@media  (max-width: 390px) {
+
+    .podcastInfo{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .podcastInfo .image{
+        position: center;
+        clip-path: inset(0px round 20px);
+        height: 150px;
+        width: 150px;
+        padding: 0;
+    }
+
+    .podcastInfo .image img{
+        height: 150px;
+    }
+
+    .podcastInfo .text{
+        margin-top: 30px;
+    }
+
+    .podcastInfo .text .name{
+        top:0;
+        font-size: 21px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .description{
+        margin-top: 20px;
+        top:0;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .podcastInfo .text .refs{
+        top:0;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    .link {
+        padding: 8px 14px 6px 14px;
+        border-radius: 25px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
 
 @media (min-height: 1000px) and (min-width: 1200px){
 

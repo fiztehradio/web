@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="New SideNav and mobile devices">
       <changelist_data name="Ayliuz" email="zuev.iv@phystech.edu" />
-      <change afterPath="$PROJECT_DIR$/public/img/Podcasts/SendCoordinates.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/podcast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Podcasts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Podcasts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialButtons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialButtons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/podcasts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/podcasts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +95,7 @@
       <workItem from="1634639415988" duration="19081000" />
       <workItem from="1635763699073" duration="127000" />
       <workItem from="1637061942518" duration="4337000" />
+      <workItem from="1642601298455" duration="9519000" />
     </task>
     <task id="LOCAL-00001" summary="SideNav update">
       <created>1635179486703</created>

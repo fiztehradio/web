@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="New SideNav and mobile devices">
-      <changelist_data name="Ayliuz" email="zuev.iv@phystech.edu" />
+    <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="Done podcasts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Podcasts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -95,7 +93,7 @@
       <workItem from="1634639415988" duration="19081000" />
       <workItem from="1635763699073" duration="127000" />
       <workItem from="1637061942518" duration="4337000" />
-      <workItem from="1642601298455" duration="9519000" />
+      <workItem from="1642601298455" duration="12551000" />
     </task>
     <task id="LOCAL-00001" summary="SideNav update">
       <created>1635179486703</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635179486703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done podcasts">
+      <created>1643821583193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643821583194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SideNav update" />
     <MESSAGE value="New SideNav and mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="New SideNav and mobile devices" />
+    <MESSAGE value="Done podcasts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done podcasts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,6 +8,8 @@
       <changelist_data name="Ayliuz" email="zuev.iv@phystech.edu" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Podcasts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/podcasts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/podcasts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/team.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/team.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

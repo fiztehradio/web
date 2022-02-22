@@ -4,17 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="New SideNav and mobile devices">
-      <changelist_data name="Ayliuz" email="zuev.iv@phystech.edu" />
+    <list default="true" id="5f9f8b0e-420f-452e-81c9-3c739a1b061e" name="Changes" comment="Edited podcast order and team members">
+      <change afterPath="$PROJECT_DIR$/src/components/Playlists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Playlists.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/playlists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Podcasts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Podcasts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/podcasts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/podcasts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Anya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Anya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Artem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Artem.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Artemiy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Artemiy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/DashaG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/DashaG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/DashaS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/DashaS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Dima.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Dima.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Fedya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Fedya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Gosha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Gosha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Grisha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Grisha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Ilya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Ilya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Ira.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Ira.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/KateK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/KateK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/KateS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/KateS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Margo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Margo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/PolinaK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/PolinaK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/PolinaS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/PolinaS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Vlad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Vlad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/People/Vova.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/People/Vova.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/CatInSack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/CatInSack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/Endowment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/Endowment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/FirstPara.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/FirstPara.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/SendCoordinates.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/SendCoordinates.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/ServeMIPT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/ServeMIPT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/TheoryTrun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/TheoryTrun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Podcasts/WhatNext.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Podcasts/WhatNext.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/team.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/team.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -34,7 +73,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/Podcasts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,6 +85,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/public/img/Podcasts" />
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
@@ -106,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635179486703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edited podcast order and team members">
+      <created>1644947701731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644947701731</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SideNav update" />
     <MESSAGE value="New SideNav and mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="New SideNav and mobile devices" />
+    <MESSAGE value="Edited podcast order and team members" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited podcast order and team members" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
